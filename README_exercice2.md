@@ -1,7 +1,7 @@
 # Git / GitHub
 ## Exercice N°2
 - ### Depuis un repo clonez du nom: git-learning-2 que vous aurez créez créez une nouvelle branche du nom de myself.
-  -> On devrait crée le repos github (gh repo create git-learning-2 --public) et ensuite on le clone(git clone < lien >).Avant de creer la branche myself on doit faire une changement sur main pour commiter, plus tard c'est le SHA(identifiant unique généré pour chaque commit) de ce commit qu'on va utilisé pour faire un merge(qui est une comparaison entre la dernière commit du base(main) et celle du head(mysel)) après un pull request.Pour que ce dernièr marche il faut que les deux branches aient un point de départ commun(au moins un commit). Enfin on crée la branche myself.  
+  -> On devrait crée le repos github (gh repo create git-learning-2 --public) et ensuite on le clone(git clone < lien >).Avant de creer la branche myself on doit faire un changement sur main pour commiter, plus tard c'est le SHA(identifiant unique généré pour chaque commit) de ce commit qu'on va utilisé pour faire un merge(qui est une comparaison entre le dernier commit du base(main) et celle du head(mysel)) après un pull request.Pour que ce dernier marche il faut que les deux branches aient un point de départ commun(au moins un commit). Enfin on crée la branche myself.  
   ### git checkout -b myself
 - ### Créez un fichier about.txt avec des infos sur vous (nom, prénom, lieu de naissance...)
   ### echo "Almoustapha Moulaye Omar né à Agadez." > about.txt

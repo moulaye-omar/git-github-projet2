@@ -9,7 +9,7 @@
   #### cd git-learning-3
   -> on accéde au dossier pour faire des modifications
   #### echo "Ligne écrite depuis la branche main" > notes.txt
-  -> la double redirection (>>) permet de verifier si le fichier existe sinon elle le créer puis elle ajouter le texte affiché par echo dans le fichier indexé.
+   -> la redirection (>) permet de verifier si le fichier existe sinon il le créer ensuite elle ecrase le contenue du fichier afin d'ajouter
 - ### Faites un commit et pushez.
   #### git add notes.txt
   #### git commit -m "premier ligne du fichier notes"
@@ -17,10 +17,10 @@
   -> à chaque changement il faut ajouté avant de commiter pour enfin poussé (mettre sur ton repertoire GitHub)(<b>push</b>)
 - ### Créez une branche conflict-test
   #### git checkout -b conflict-test
-  -> <b>checkout</b> permet de deplacer sur une branche et <b>-b</b> permet de creer la branche sur laquel on va se deplacer
+  -> <b>checkout</b> permet de basculer sur une autre branche  et <b>-b</b> permet de creer la branche sur laquel on va se basculer.
 - ### Editez note.txt depuis la branche conflict-test et insérez y la phrase "Ligne écrite depuis la branche conflict-test".
   #### echo "Ligne écrite depuis la branche conflict-test" >> notes.txt
-   -> la redirection (>) permet de verifier si le fichier existe sinon il le créer ensuite elle ecrase le contenue du fichier afin d'ajouter
+  -> la double redirection (>>) permet de verifier si le fichier existe sinon elle le créer puis elle ajouter le texte affiché par echo dans le fichier indexé.
   le texte affiché par echo dans le fichier indexé.
 - ### Faites un commit et pushez.
   #### git add .
@@ -39,7 +39,7 @@
   -> à chaque changement il faut ajouté avant de commiter pour enfin poussé (mettre sur ton repertoire GitHub)(<b>push</b>).
 - ### Essayez de merger la branche conflict-test dans main.
   #### git merge conflict-test
-  -> pour merge une branche dans une autre il que tu sois dans la branche qui reçoit(principale) puis tu exécute la commande indiqué ci-haut.
+  -> Pour faire un merge d'une branche à une autre il faut basculer sur la branche principale.
   ##### Après la resolution manuel
   -> aprés chaque modification manuel ou automatique il faut s'assuré d'ajouter(add) ensuit sauvergarder(commit) et enfin poussé(push).
   #### git add .
