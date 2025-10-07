@@ -14,7 +14,7 @@
   #### git add notes.txt
   #### git commit -m "premier ligne du fichier notes"
   #### git push -u origin main
-  -> à chaque changement il faut ajouté avant de commiter pour enfin poussé (mettre sur ton repertoire GitHub)(<b>push</b>)
+  -> à chaque changement il faut ajouter avant de commiter pour enfin pousser (mettre sur ton repertoire GitHub)(<b>push</b>)
 - ### Créez une branche conflict-test
   #### git checkout -b conflict-test
   -> <b>checkout</b> permet de basculer sur une autre branche  et <b>-b</b> permet de creer la branche sur laquel on va se basculer.
