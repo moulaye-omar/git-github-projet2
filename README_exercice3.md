@@ -3,7 +3,7 @@
 - ### Créez un nouveau repo GitHub appelé git-learning-3.
   #### gh repo create git-learning-3 --public
 - ### Sur la branche main, ajoutez un nouveau fichier notes.txt avec pour contenu "Ligne écrite depuis la branche main".
-  #### git clone https://github.com/moulaye-omar/git-learning-3
+  #### git clone < lien >
   #### cd git-learning-3
   #### echo "Ligne écrite depuis la branche main" > notes.txt
 - ### Faites un commit et pushez.
