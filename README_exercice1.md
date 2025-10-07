@@ -12,7 +12,7 @@
 - ### Créez un fichier README.md with some text (exemple: "Mon premier projet Git")
   -> cd git-learning-1 : il faut excédé au projet avant créer tout chose
   ### echo "Mon premier projet Git" > README.md
-  -> la redirection (>) permet de verifier si le fichier existe sinon il le créer ensuite elle ecrase le contenue du fichier afin d'ajouter
+  -> la redirection (>) permet de verifier si le fichier existe sinon elle le créer ensuite elle ecrase le contenue du fichier afin d'ajouter
   le texte affiché par echo dans le fichier indexé.
 - ### Ajoutez une autre ligne au README.md (votre nom et le numéro de votre MAc), puis faites un commit, puis un push final
   ### echo "Almoustapha Moulaye Omar né à Agadez." >> README.md
