@@ -15,6 +15,9 @@
   ![exercice2](exercice2.png)
 - ### Faites un pull request de git-learning-2/myself -> main.
   ### gh pr create --base main --head myself --title "Ajout de mon profil" --body "Voici mes informations dans about.txt"
-  -> pull request est une demande de pour introduire mes ajout dans la branche main(principal).
+  -> pull request est une demande pour introduire mes ajout dans la branche main(principal).
+- ### Mergez le pull request.
+  #### gh pr merge 1 (à travers le numéro du pr)
+  #### gh pr merge --head myself (à travers le nom de la branche)
   <br><br>
   ![pull request](pull_request.png)

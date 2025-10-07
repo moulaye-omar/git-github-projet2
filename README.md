@@ -24,6 +24,9 @@
   #### git push -u origin myself
 - ### Faites un pull request de git-learning-2/myself -> main.
   #### gh pr create --base main --head myself --title "Ajout de mon profil" --body "Voici mes informations dans about.txt"
+- ### Mergez le pull request.
+  #### gh pr merge 1 (à travers le numéro du pr)
+  #### gh pr merge --head myself (à travers le nom de la branche)
 ## Exercice N°3
 - ### Créez un nouveau repo GitHub appelé git-learning-3.
   #### gh repo create git-learning-3 --public
